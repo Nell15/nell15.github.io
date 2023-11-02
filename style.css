@@ -1,0 +1,81 @@
+body{
+  padding:0;
+  margin:0;
+}
+
+.First {
+    background-color: #0095ff;
+}
+
+.First h1 { 
+  padding:0;
+  margin:0;
+}
+
+.abt {
+    padding: 0px 50px;
+    gap: 50px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.abt img {
+  border-radius: 50%;
+}
+
+.abt img:hover {
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px
+}
+
+#myInput {
+  display: none;
+}
+
+.button {
+  font-family: "HK Grotesk", sans-serif;  /* Specify the "HK Grotesk" font family */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative; /* Create a positioning context for the icon */
+}
+
+.button img {
+  border-radius: 0px;
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* .abt {
+    background-image:url('https://media.tenor.com/UTrLSr85tYEAAAAC/happy-cat-cat.gif');
+    background-repeat:repeat;
+} */

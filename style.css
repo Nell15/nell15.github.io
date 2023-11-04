@@ -3,11 +3,11 @@ body{
   margin:0;
 }
 
-.First {
+.intro {
     background-color: #0095ff;
 }
 
-.First h1 { 
+.intro h1 { 
   padding:0;
   margin:0;
 }
@@ -39,6 +39,39 @@ body{
   }
 }
 
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobility {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding:20; */
+}
+.mobility p {
+  padding:20px;
+}
+
+.civic-engagement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.career-management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .links {
   display: flex;

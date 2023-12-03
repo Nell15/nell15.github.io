@@ -151,22 +151,6 @@ button:hover {
   }
 }
 
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.mobility {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* padding:20; */
-}
-.mobility p {
-  padding:20px;
-}
-
 .activities {
   display: flex;
   flex-direction: column;
@@ -205,7 +189,7 @@ button:hover {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  position: relative; /* Create a positioning context for the icon */
+  position: relative;
 }
 
 .button img {
@@ -217,9 +201,8 @@ button:hover {
 
 .cornerButton {
   position: fixed;
-  bottom: 20px; /* Adjust as needed */
-  right: 20px; /* Adjust as needed */
-  /* Other button styles */
+  bottom: 20px;
+  right: 20px;
   padding: 10px 10px;
   background-color: #c8f560;
   border: none;
@@ -236,6 +219,7 @@ button:hover {
   height: auto;
 }
 
+/* easter egg */
 /* .abt {
     background-image:url('https://media.tenor.com/UTrLSr85tYEAAAAC/happy-cat-cat.gif');
     background-repeat:repeat;

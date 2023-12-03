@@ -72,7 +72,6 @@ button:hover {
   height: 100vh;
   width: 100%;
   color: #ffffff;
-
 }
 
 .intro div {
@@ -91,6 +90,10 @@ button:hover {
   color: #7862F8;
 }
 
+.intro a {
+  margin-right: auto;
+}
+
 .intro button {
   margin-left: 0;
   color: #9a88ff;
@@ -107,12 +110,13 @@ button:hover {
 }
 
 .abt {
-  padding: 0px 50px;
-  gap: 50px 50px;
+  margin: auto;
+  width: 70%;
+  gap: 50px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .abt img {
@@ -163,30 +167,6 @@ button:hover {
   padding:20px;
 }
 
-.civic-engagement {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.career-management {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@media screen and (max-width: 560px) {
-  .career-management iframe {
-    width: 70%;
-    height: 70%;
-  }
-}
-
-iframe {
-  width: 560px;
-  height: 315px;
-}
-
 .activities {
   display: flex;
   flex-direction: column;
@@ -212,7 +192,7 @@ iframe {
 }
 
 .button {
-  font-family: "HK Grotesk", sans-serif;  /* Specify the "HK Grotesk" font family */
+  font-family: "HK Grotesk", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;

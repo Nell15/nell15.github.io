@@ -4,46 +4,15 @@
 
 <main>
     <section class="job-section">
-        <h1>Career management</h1>
+        <h1>PPP (Personal Professional Project)</h1>
         
-        <p>
-            Learn about my career and the work I did for my career management course:
-        </p>
         <div class="job">
             <h2>
-                ePortfolio
+                Slides
             </h2>
             <p>
-                This is the website you're currently on !
-                I developped an ePortfolio as part of my Soft and Human skills class, and as a matter of fact, it is the website you're currently on.
+                Coming soon
             </p>
-            <div class="languages">
-                <a href="https://svelte.dev/" target="_blank">Svelte</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="job-section">
-        <div class="job">
-            <h2>
-                Elevator Pitch:
-            </h2>
-            <iframe width="" height="" src="https://www.youtube.com/embed/15x2CxwQgDs?si=691I7nOteVrY-b_d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-    </section>
-
-    <section class="job-section">   
-        <div class="job">
-            <h2>Infographic : civic engagement project</h2>
-            <p>
-              This infographic is the result of a group project in a team of 8 people where we had to create an infographic
-              describing our plans and ideas regarding our civic engagement. I personally want to make computer science and 
-              surrounding subjects accessible to everyone, which is why I want to work on actions similar to our "Inform" section. 
-              As a matter of fact, I was part of the staff during the Capitole du Libre in November 2023.
-            </p>
-            <div class="info">
-                <img src="{base}/img/digital7.png" id="digital7">
-            </div>
         </div>
     </section>
 

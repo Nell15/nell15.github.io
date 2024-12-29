@@ -8,6 +8,17 @@
         
         <div class="job">
             <h2>
+                Double diploma (application)
+            </h2>
+            <p>
+                I have recently applied for a double diploma with Sherbrooke's University, Quebec. This course is a master's degree in computer science,
+                specialized in the field of game developement.<br>
+                I hope I will get to study there for my next academic year (2025-2026).
+            </p>
+        </div>
+
+        <div class="job">
+            <h2>
                 School exchange
             </h2>
             <p>

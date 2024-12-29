@@ -1,5 +1,6 @@
 <script>
     import { base } from '$app/paths'
+    import HoverablePic from '../../assets/components/HoverablePic.svelte'
 </script>
 
 <main>
@@ -9,15 +10,22 @@
         <div class="job">
             <h2><a href="https://net7.dev/" target="_blank">net7</a></h2>
             <p class="job-detail">2024-2025 • Treasurer</p>
+            <p>As net7's treasurer, my involves keeping track of the association's treasury, its expenses and other tasks involving funds.
+                I also took part in certain administrative tasks as well as the management of social media communication / announcements.
+            </p>
         </div>
 
         <div class="job">
             <h2><a href="https://www.tvn7.fr/" target="_blank">TVn7</a></h2>
             <p class="job-detail">2024-2025 • IT Manager</p>
+            <p>As TVn7's IT manager, my job consists in helping members with troubleshooting issues on the association's computers and managing the 
+                association's server.
+            </p>
         </div>
 
         <div class="job">
             <h2><a href="https://capitoledulibre.org/" target="_blank">Capitole du libre</a></h2>
+            <p class="job-detail">November, 2023 and 2024 • Videographer and photographer</p>
             <p>
                 During my time at N7, I had the opportunity to be part of the
                 staff at the
@@ -29,25 +37,44 @@
             <p>
                 I was part of TVn7's crew during the event (TVn7 is N7's
                 audiovisual association). During the event, I filmed and edited
-                conferences regarding diverse topics and learned the basics of
-                control booths.
+                conferences regarding diverse topics related with open-source technologies.
+                I also discovered my passion for control booth during the event. <br>
+                During my second edition, I also volonteered as photographer for the event through Photo7 (N7's photography association).
             </p>
-            <!-- svelte-ignore a11y-img-redundant-alt -->
+
             <div class="picdiv">
-                <img
-                    src="{base}/img/CdL_atem.jpg"
-                    alt="Picture of a Blackmagic Atem Extreme Iso"
-                    id="CdL_pic"
+                <HoverablePic
+                    img_path="CdL/atem_mini.jpg"
+                    text="Picture of me using a Blackmagic Atem Extreme Iso mini control booth to reccord a conference. 
+                    This is the tool I used to familiarize myself with control booths before making my way 
+                    to heavier equipement.  "
+                    link="https://photo7.inpt.fr/albums.php?id=62"
+                />
+                <HoverablePic
+                    img_path="CdL/video.jpg"
+                    text="Me filming a conference on a Sony FX6 camera."
+                    link="https://photo7.inpt.fr/albums.php?id=62"
+                />
+                <HoverablePic
+                    img_path="CdL/volonteers.jpg"
+                    text="A shot of all (or at least most of) the people that volonteered during the Capitole du Libre in 2024."
+                    link="https://photo7.inpt.fr/albums.php?id=62"
                 />
             </div>
             <p>
-                Above is a picture of an Blackmagic Atem Extreme Iso which I
+                Above (from left to right) is a picture of :<br>
+                - me using Blackmagic Atem Extreme Iso which I
                 used to familiarize myself with using a control booth before
-                helping as co-director in the evening.
+                helping as co-director in the evening.<br>
+                - me filming a conference<br>
+                - all the volonteers that help in 2024's edition
             </p>
+            <p>Credits to <a href="https://photo7.inpt.fr/" target="_blank">Photo7</a> for the pictures.</p>
             <div class="languages">
                 <a href="https://www.adobe.com/products/premiere.html" target="_blank">Premiere Pro</a>
+                <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank">Lightroom</a>
             </div>
+            
         </div>
 
         <div class="job">
@@ -150,11 +177,10 @@
     }
 
     .picdiv {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
         display: flex;
-    }
-
-    #CdL_pic {
-        width: 50rem;
+        justify-content: space-evenly;
     }
 
     @media screen and (max-width: 800px) {
@@ -162,8 +188,16 @@
             padding: 0 0.5rem;
         }
 
-        #CdL_pic {
-            width: 100%;
+        section {
+            margin: 5em 0;
+        }
+
+        .picdiv {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 1em;
         }
     }
 </style>

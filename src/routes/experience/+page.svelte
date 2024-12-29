@@ -111,21 +111,10 @@
         font-weight: bold;
     }
 
-    .picdiv {
-        display: flex;
-    }
-
-    #CdL_pic {
-        width: 50rem;
-    }
 
     @media screen and (max-width: 800px) {
         main {
             padding: 0 0.5rem;
-        }
-
-        #CdL_pic {
-            width: 100%;
         }
     }
 </style>

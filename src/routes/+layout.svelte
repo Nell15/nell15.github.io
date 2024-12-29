@@ -26,10 +26,10 @@
         <ul>
             <li on:click={closeMenu}><a href="{base}/#projects">Projects</a></li>
             <li on:click={closeMenu}><a href="{base}/skills">Skills</a></li>
-            <li on:click={closeMenu}><a href="{base}/experience">Experience</a></li>
+            <li on:click={closeMenu}><a href="{base}/experience">Career</a></li>
             <li on:click={closeMenu}><a href="{base}/civic_engagement">Civic engagement</a></li>
             <li on:click={closeMenu}><a href="{base}/mobility">Mobility</a></li>
-            <li on:click={closeMenu}><a href="{base}/cam">Career management</a></li>
+            <li on:click={closeMenu}><a href="{base}/cam">PPP</a></li>
             <li on:click={closeMenu} class="button"><AButton text={"Contact"} link="{base}/#contact" textColor={"#020409"} buttonColor={"#edeef1"}/></li>        
         </ul>
     </nav>
@@ -53,8 +53,9 @@
         </svg>
         MIT license
     </div>
+    <p>This website was made for a school assignment, if you are looking for my actual portolfio, click <a href="https://nelltruong.dev" target="_blank">here</a>.</p>
     <p>Made using <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a> !</p>
-    <p>Access the <a href="https://github.com/Nell15/reportfolio" target="_blank">source code</a>.</p>
+    <p>Access the <a href="https://github.com/Nell15/nell15.github.io" target="_blank">source code</a>.</p>
 </footer>
 
 <style>

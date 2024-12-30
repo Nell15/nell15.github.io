@@ -54,7 +54,7 @@
         text="nelltruong67@gmail.com">
         </ContactButton>
         <ContactButton
-        link="{base}/docs/CurriculumVitaeEN.pdf"
+        link="https://nelltruong.dev/docs/resume_fr.pdf"
         icon="{base}/img/CV_Icon.png"
         text="Curriculum Vitae">
         </ContactButton>

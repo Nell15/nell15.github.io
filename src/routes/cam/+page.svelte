@@ -6,14 +6,12 @@
     <section class="job-section">
         <h1>PPP (Personal Professional Project)</h1>
         
-        <div class="job">
-            <h2>
-                Slides
-            </h2>
-            <p>
-                Coming soon
-            </p>
-        </div>
+        {#each {length: 8} as _, i}
+                <!-- svelte-ignore a11y-missing-attribute -->
+                {#if i != 0}
+                <img src="{base}/img/PPP/{i}.png" class="slide">
+                {/if}
+        {/each}
     </section>
 
 </main>
@@ -32,52 +30,36 @@
         font-size: clamp(25px, 8vw, 45px);
         font-weight: bold;
         margin: auto;
-        margin-bottom: 2rem;
-    }
-
-    h2 {
-        font-size: clamp(10px, 8vw, 25px);
-        font-weight: bold;
-        margin: auto;
+        margin-bottom: 1rem;
     }
 
     section {
         display: block;
-        margin: 7em 0;
+        margin-top: 4em;
+        margin-bottom: 10em;
+        display: grid;
+        place-items: center;
+        gap: 2em;
     }
 
-    .job {
-        font-size: 1em;
-        background-color: transparent;
-        border-radius: 2em;
-        border: solid;
-        border-color: #dedee1;
-        text-align: left;
-        width: auto;
-        height: auto;
-        padding: 1em 1.5em;
-        margin: 1.5em 0;
+    .slide {
+        width: 80%;
+        border-color: #595959;
+        border-radius: 1.5em;
+        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.6));
     }
 
-    .languages {
-        display: flex;
-        align-items: center;
-        gap: 1em;
-    }
+    @media screen and (max-width: 800px) {
+        main {
+            padding: 0 0.5rem;
+        }
 
-    .languages > a, .job > p > a {
-        transition: all 0.3s ease-in-out;
-    }
+        section {
+            margin: 5em 0;
+        }
 
-    .languages >  a:hover, .job > p > a:hover {
-        color: rgb(64, 1, 166);
-        font-weight: bold;
-    }
-
-    .info {
-        display: flex;
-        justify-content: center;
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
+        .slide {
+            width: 100%;
+        }
     }
 </style>

@@ -1,10 +1,12 @@
-# Portfolio
+# Portfolio (CAM)
 
 [![Langage](https://badgen.net/static/Langage/Svelte/ff3e00)](https://svelte.dev/)
 ![License](https://badgen.net/static/License/MIT/)
 
-I built this website to display my projects and learn web development.
+I built this website for a school assignment !
 
-Here's the link to my portfolio : [nelltruong.dev](https://nelltruong.dev/)
+If you are looking for my actual portfolio, please have a look at [nelltruong.dev](https://nelltruong.dev/)
 
-Huge thanks to [@ewen-lbh](https://github.com/ewen-lbh) for his help ! :)
+Thanks,
+
+Nell

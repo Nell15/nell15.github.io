@@ -15,7 +15,7 @@
         </button>
     </a>
 {:else}
-    <a href="mailto: nelltruong67@gmail.com">
+    <a href="mailto: nell@net7.dev">
         <button>
             {#if (icon != "none")}
                 <img src={icon} class="logo"/>

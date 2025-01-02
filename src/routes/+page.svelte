@@ -25,7 +25,7 @@
     <div class="abt" >
         <HomeText/>
         <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img src="{base}/img/pfp.png" alt="profile picture" class="pfp"/>
+        <img src="https://nelltruong.dev/img/pfp.jpg" alt="profile picture" class="pfp"/>
     </div>
 </section>
 
@@ -51,7 +51,7 @@
         <ContactButton
         link="email"
         icon="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
-        text="nelltruong67@gmail.com">
+        text="nell@net7.dev">
         </ContactButton>
         <ContactButton
         link="https://nelltruong.dev/docs/resume_en.pdf"
@@ -134,6 +134,8 @@
     }
 
     .pfp {
+        width: 400px;
+        height: 400px;
         border-radius: 50%;
         transition: all 0.3s ease;
     }

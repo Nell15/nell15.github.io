@@ -14,11 +14,19 @@
                 {/if}
         {/each}
 
-            <ContactButton
-            link="{base}/docs/PPP.pdf"
-            icon="{base}/img/doc_icon.svg"
-            text="PPP (pdf version)">
-            </ContactButton>
+        <ContactButton
+        link="{base}/docs/PPP.pdf"
+        icon="{base}/img/doc_icon.svg"
+        text="PPP (pdf version)">
+        </ContactButton>
+
+        <h1 class="cov">Cover letters</h1>
+
+        <ContactButton
+        link="{base}/docs/Cover_Letter_Guerrilla.pdf"
+        icon="{base}/img/doc_icon.svg"
+        text="Cover Letter Guerrilla Games (EN)">
+        </ContactButton>
 
     </section>
 
@@ -50,15 +58,15 @@
         gap: 2em;
     }
 
-    .ppp-button {
-        margin-top: 4em;
-    }
-
     .slide {
         width: 80%;
         border-color: #595959;
         border-radius: 1.5em;
         filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.6));
+    }
+
+    .cov {
+        margin-top: 2em;
     }
 
     @media screen and (max-width: 800px) {

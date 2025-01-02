@@ -1,5 +1,6 @@
 <script>
     import { base } from '$app/paths'
+    import ContactButton from '../../assets/components/ContactButton.svelte';
 </script>
 
 <main>
@@ -9,9 +10,16 @@
         {#each {length: 8} as _, i}
                 <!-- svelte-ignore a11y-missing-attribute -->
                 {#if i != 0}
-                <img src="{base}/img/PPP/{i}.png" class="slide">
+                <img src="{base}/img/PPP/{i}.svg" class="slide">
                 {/if}
         {/each}
+
+            <ContactButton
+            link="{base}/docs/PPP.pdf"
+            icon="{base}/img/doc_icon.svg"
+            text="PPP (pdf version)">
+            </ContactButton>
+
     </section>
 
 </main>
@@ -40,6 +48,10 @@
         display: grid;
         place-items: center;
         gap: 2em;
+    }
+
+    .ppp-button {
+        margin-top: 4em;
     }
 
     .slide {

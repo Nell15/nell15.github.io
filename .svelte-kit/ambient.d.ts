@@ -48,6 +48,7 @@ declare module '$env/static/private' {
 	export const LC_MONETARY: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
+	export const DBUS_STARTER_BUS_TYPE: string;
 	export const SYSTEMD_EXEC_PID: string;
 	export const GSM_SKIP_SSH_AGENT_WORKAROUND: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
@@ -109,6 +110,7 @@ declare module '$env/static/private' {
 	export const npm_execpath: string;
 	export const XDG_CONFIG_DIRS: string;
 	export const NVM_CD_FLAGS: string;
+	export const DBUS_STARTER_ADDRESS: string;
 	export const XDG_DATA_DIRS: string;
 	export const OPAM_LAST_ENV: string;
 	export const npm_config_global_prefix: string;
@@ -175,6 +177,7 @@ declare module '$env/dynamic/private' {
 		LC_MONETARY: string;
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
+		DBUS_STARTER_BUS_TYPE: string;
 		SYSTEMD_EXEC_PID: string;
 		GSM_SKIP_SSH_AGENT_WORKAROUND: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
@@ -236,6 +239,7 @@ declare module '$env/dynamic/private' {
 		npm_execpath: string;
 		XDG_CONFIG_DIRS: string;
 		NVM_CD_FLAGS: string;
+		DBUS_STARTER_ADDRESS: string;
 		XDG_DATA_DIRS: string;
 		OPAM_LAST_ENV: string;
 		npm_config_global_prefix: string;

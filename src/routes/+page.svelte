@@ -54,9 +54,14 @@
         text="nelltruong67@gmail.com">
         </ContactButton>
         <ContactButton
+        link="https://nelltruong.dev/docs/resume_en.pdf"
+        icon="{base}/img/CV_Icon.png"
+        text="Resume (EN)">
+        </ContactButton>
+        <ContactButton
         link="https://nelltruong.dev/docs/resume_fr.pdf"
         icon="{base}/img/CV_Icon.png"
-        text="Curriculum Vitae">
+        text="Resume (FR)">
         </ContactButton>
     </div>
 </section>
